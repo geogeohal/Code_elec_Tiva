@@ -442,11 +442,3 @@ void DisplayString(int x,int y,char *s)
         s++;
        }
 }
-/*void DisplayInt(int x, int y, int w){
-  String a = String(w);
-  for (int i=0 ; i<strlen(a) ; i++){
-    char charac = char(a[i]);
-    DisplayCarac(int x, int y, charac);
-  }
-}
-*/

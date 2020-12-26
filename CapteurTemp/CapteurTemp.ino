@@ -2,6 +2,7 @@
 #include "test_2.h"
 #include "IsepScreen.h"
 #include "iseplogo128.h"
+#include "capteur_temp_image.h"
 
 
 void setup() {
@@ -21,6 +22,8 @@ Display(logo_groupe); // affichage du logo du groupe
 delay(1500); // temps d'attente (en ms)
 Display(motif); // affichage du logo de l'ISEP
 delay(1500); // temps d'attente (en ms)
+Display(logo_capteur_temperature); // affichage du logo de l'ISEP
+delay(1500);
 Display(whiteScreen); // effaçage de l'écran.
 
 
